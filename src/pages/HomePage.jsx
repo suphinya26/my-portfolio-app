@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ProjectCard from '../components/ProjectCard';
 import { projects } from '../data/projects';
-import profileImage from '../assets/profile.jpg'; // สมมติว่าคุณมีรูปโปรไฟล์ในโฟลเดอร์ src/assets/
+import profileImage from '../assets/profile.jpg';
 
 const HomePage = () => {
   const featuredProjects = projects.slice(0, 3); // แสดง 3 โปรเจกต์แรก

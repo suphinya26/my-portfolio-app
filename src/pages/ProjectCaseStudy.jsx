@@ -30,6 +30,9 @@ const ProjectCaseStudy = () => {
           <p className="text-gray-600 text-lg mb-6">
             <span className="font-semibold">My Role:</span> {project.role}
           </p>
+          <p className="text-gray-600 text-lg mb-6">
+            <span className="font-semibold">Link:</span> <a href={project.link} target='blank' rel="noopener noreferrer">ไปที่ Figma</a>
+          </p>
           <img src={project.image} alt={project.title} className="w-full rounded-lg mb-8" />
           
           <div className="prose max-w-none text-gray-800">
